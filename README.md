@@ -1,4 +1,3 @@
 # Task-List
-Java Script project
-The list ca be filtered by letter and stored at local storage
+in this Java Script project we can add task ,list them, filter thru them, delete and save them to local storage
 
