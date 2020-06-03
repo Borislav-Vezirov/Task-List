@@ -38,7 +38,6 @@ function getTasks() {
         li.appendChild(link);
 
         ul.appendChild(li);
-        
     });
 }
 function addTask(e) {
@@ -69,7 +68,6 @@ function addTask(e) {
         
         input.value    = "";
     }
-
 }
 
 function storeTaskInLocalStorage(task) {
@@ -84,23 +82,6 @@ function storeTaskInLocalStorage(task) {
   
     localStorage.setItem('tasks', JSON.stringify(tasks));
   }
-  
-
-// function filterTasks() {
-
-//     var text = filter.value.toLowerCase();
-//     var items = document.getElementsByClassName('list-group-item');
-
-
-//     for(var i = 0; i < items.length; i++) {
-//         text = items[i].textContent || items[i].innerHTML;
-//         if(items[i].toLowerCase().indexOf(text) != -1) {
-//             items[i].style.display = "block";
-//         } else {
-//             items[i].style.display = "none"
-//         } 
-//     }
-// }
 
 function filterTasks(e) {
     let text = e.target.value.toLowerCase();
