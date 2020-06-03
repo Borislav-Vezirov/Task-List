@@ -1,0 +1,47 @@
+body {
+    background-color: #f1eeee;
+}
+.container {
+    background-color: #dedede;
+    width: 70%;
+    height: 105vh;
+    border: 1px solid lightgrey;
+    border-bottom: 2px solid rgb(124, 124, 124);
+    padding: 10px;
+    border-radius: 5px;
+}
+h2 {
+    font-weight: normal;
+    margin-left: 15px;
+}
+h3 {
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.m-15 {
+    margin-left: 15px;
+}
+.form-control {
+    background-color: #dedede;
+    border: none;
+    border-bottom: 1px solid #17a2b8;
+}
+.form-control:focus {
+    background-color: #dedede;
+
+}
+.btn {
+    width: 150px;
+    margin-left: 15px;
+}
+hr {
+    margin: 20px 0;
+}
+.list-group-item {
+    background-color: #dedede;
+}
+.link {
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+}

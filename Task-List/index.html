@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Task List</h2>
+            </div>
+        </div>
+        <br>
+        <form id="group-form">
+            <div class="row m-15">
+                    <input type="text" id="task"class="form-control col-sm-10" placeholder="Add new task">
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-5">
+                    <button class="btn btn-info">ADD TASK</button>
+                </div>
+            </div>
+        </form>
+        <hr>
+        <div class="row m-15">
+            <div class="col-sm-12">
+                <h3>Tasks</h3>
+            </div>
+        </div>
+        <br>
+        <div class="row m-15">
+            <input type="text" id="filter"class="form-control col-sm-10" placeholder="Filter tasks">
+        </div>
+        <br>
+        <div class="row m-15">
+            <ul class="list-group col-sm-11">
+                <!-- <li class="list-group-item">List Item 1<a href="#" class="link"><i class="fas fa-trash-alt float-right"></i></a></li> -->
+            </ul>
+        </div>
+        <br>
+        <a href="#"class="btn btn-dark m-15" style="margin-left: 15px;">Clear Tasks</a>
+        <br>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
