@@ -18,7 +18,7 @@ function getTasks() {
     if(localStorage.getItem('tasks') === null) {
         tasks = [];
     }  else {
-        tasks = JSON.parse(localStorage.getItem('task'));
+        tasks = JSON.parse(localStorage.getItem('tasks'));
     }
 
     tasks.forEach(function(task) {
